@@ -1,0 +1,129 @@
+:root {
+    --dark-blue-color: #003071;
+    --font-color: #000000;
+    --background-color: #E8E8EA;
+
+    background: var(--background-color);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .body{
+    line-height: 1.6;
+    color: var(--font-color);
+    font-size: 1.1rem;
+
+
+  }
+  
+  .container {
+    max-width: 1100px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 2rem;
+  }
+.navigation{ 
+    /*border-bottom: 1px solid #ccc;*/
+    max-width: 1100px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 2rem;
+
+  
+    display: flex;
+    justify-content: space-between;
+    /*background: white */
+  }
+  .logo-wrapper img {
+    /*font-size: 1.5em;*/
+    width: 160px; 
+    margin: .6em 0;
+    display: inline-block;
+  }
+
+.header-navigation ul, 
+.header-navigation li {
+  margin: 0; 
+  padding: 0;
+}
+.header-navigation li {
+    display: inline-block;
+    margin: 1.4em 1em 1em 1em;
+  }
+
+/* section */
+
+.inline-block-section {
+    margin: 2rem 0;
+  }
+  
+  .inline-block-section .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .inline-block-section h1 {
+    font-size: 4rem;
+    color: var(--dark-blue-color);
+  }
+  
+  .inline-block-section p {
+    margin: 1rem 0;
+  }
+  img{
+      width: 100%;
+  }
+
+/*
+*
+* Footer
+*
+*/
+a {
+    text-decoration: none;
+    color: #000;
+  }
+
+.footer-items{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+
+button:hover {
+    background-color: #003071;
+  }
+  
+  button {
+    color: white;
+  }
+  button {
+    height: 4em;
+    width: auto;
+    padding: 1.5em ;
+    margin: 1em auto;
+    background-color: #124388;
+    border: none;
+    border-radius: 3px;
+    letter-spacing: 0.3em;
+  }
+  
+.copyright {
+    color: #9C9C9C
+}
+
+.footer {
+    background-color: white;
+    width: 100% ;
+    
+    
+}
+.social-media-icons {
+    width: 30px;
+}
+.social-media-icons.two {
+    width: 26px;
+}
