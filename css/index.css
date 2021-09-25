@@ -75,6 +75,14 @@
       width: 100%;
   }
 
+/* my ux skills section */
+
+.h1Ttitle {
+  text-align: Center;
+}
+
+
+
 /*
 *
 * Footer
@@ -127,3 +135,111 @@ button:hover {
 .social-media-icons.two {
     width: 26px;
 }
+
+
+
+
+
+/*ux skills*/
+
+.threecontainer {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  flex-direction: row;
+}
+
+.threecards {
+  display: flex;
+  padding: .5rem;
+  margin-bottom: 1rem;
+  width: 33%;
+  height: 400px;
+}
+
+/*mobile view styles*/
+
+  @media only screen and (max-width: 600px) {
+    .threecontainer {
+      flex-wrap: wrap;
+      /*background-color: lightblue; */
+    }
+    .threecards {
+      width: 100%;
+      padding: 1rem;
+
+    }
+  }
+/*tablet view styles*/
+
+  @media only screen and (max-width: 950px) {
+    .threecontainer {
+      flex-wrap: wrap;
+      /*background-color: lightblue; */
+    }
+    .threecards {
+      width: 100%;
+      padding: 1rem;
+
+    }
+  }
+
+  .threecard-item {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    border-radius: 6px;
+    box-shadow: 0 20px 40px -14px rgba(0,0,0,0.25);
+    overflow: hidden;
+    transition: transform 0.5s;
+    -webkit-transition: transform 0.5s;
+  }
+  .threecard-item:hover {
+    cursor: pointer;
+      transform: scale(1.1);
+      -webkit-transform: scale(1.1);
+  }
+  .threecard-image:hover {
+    opacity: 1;
+  }
+
+  .threecard-info {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    padding: 1rem;
+    line-height: 1.5em;
+    justify-content:center;
+    text-align: center;
+    color: #32325d;
+  }
+
+  .threecard-title {
+    font-size: 25px;
+    line-height: 1.1em;
+    margin-bottom: 0.2em;
+
+  }
+
+  .threecard-image{
+    height: 200px;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 6px 6px 0px 0px;
+    opacity: 0.91;
+    display: flex;
+    justify-content:center;
+    padding: 10px;
+  }
+
+  .cardimage{
+    width:150px;
+  }
+
+  .threecard-intro {
+    color: rgb(116, 116, 116);
+  }
+
