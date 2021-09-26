@@ -317,28 +317,4 @@ button:hover {
   justify-content: flex-end;
 }
 
-/*mobile view styles*/
-
-@media only screen and (max-width: 600px) {
-  .grid-card-wrapper {
-    flex-wrap: wrap;
-    /*background-color: lightblue; */
-  }
-  .grid-card{
-    width: 100%;
-    padding: 1rem;
-  }
-}
-/*tablet view styles*/
-
-@media only screen and (max-width: 950px) {
-  .flexcontainer {
-    flex-wrap: wrap;
-    /*background-color: lightblue; */
-  }
-  .flexchild {
-    width: 100%;
-    padding: 1rem;
-
-  }
 }
