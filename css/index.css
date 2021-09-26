@@ -255,7 +255,6 @@ button:hover {
 
 .myWork {
   text-align: center;
-  max-width: 1080px;
   overflow: hidden;
 }
 
@@ -315,6 +314,4 @@ button:hover {
 .SAHS-p{
   text-align: left;
   justify-content: flex-end;
-}
-
 }
