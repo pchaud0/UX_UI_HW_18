@@ -150,6 +150,18 @@ button:hover {
       padding: 1rem;
 
     }
+    .grid-card {
+      height:500px;
+      flex-direction: column;
+    }
+    .col-5 {
+      width: auto;
+    }
+    .col-7 {
+      width:auto;
+      align-items: center;
+      width: 100%;
+    }
   }
 
 /*tablet view styles*/
@@ -165,7 +177,6 @@ button:hover {
 
     }
   }
-
   .threecard-item {
     display: flex;
     flex-direction: column;
@@ -224,7 +235,7 @@ button:hover {
   .threecard-intro {
     color: rgb(116, 116, 116);
   }
-
+  
 /*My work*/
 
 .myWork {
