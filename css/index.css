@@ -10,10 +10,7 @@
     line-height: 1.6;
     color: var(--font-color);
     font-size: 1.1rem;
-
-
   }
-  
   .container {
     max-width: 1100px;
     margin: auto;
@@ -21,24 +18,18 @@
     padding: 0 2rem;
   }
 .navigation{ 
-    /*border-bottom: 1px solid #ccc;*/
     max-width: 1100px;
     margin: auto;
     overflow: hidden;
     padding: 0 2rem;
-
-  
     display: flex;
     justify-content: space-between;
-    /*background: white */
   }
   .logo-wrapper img {
-    /*font-size: 1.5em;*/
     width: 160px; 
     margin: .6em 0;
     display: inline-block;
   }
-
 .header-navigation ul, 
 .header-navigation li {
   margin: 0; 
@@ -48,14 +39,12 @@
     display: inline-block;
     margin: 1.4em 1em 1em 1em;
   }
-
   
 /* section */
 
 .inline-block-section {
     margin: 2rem 0;
   }
-  
   .inline-block-section .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -63,12 +52,10 @@
     align-items: center;
     justify-content: center;
   }
-  
   .inline-block-section h1 {
     font-size: 4rem;
     color: var(--dark-blue-color);
   }
-  
   .inline-block-section p {
     margin: 1rem 0;
   }
@@ -77,6 +64,7 @@
   }
 
 /* my ux skills section */
+
 .h1Ttitle {
   text-align: Center;
 }
@@ -89,7 +77,6 @@ a {
     text-decoration: none;
     color: #000;
   }
-
 .footer-items{
   display: flex;
   flex-direction: column;
@@ -98,6 +85,8 @@ a {
 }
 button:hover {
     background-color: #003071;
+    cursor: pointer;
+
   }
   button {
     color: white;
@@ -112,16 +101,12 @@ button:hover {
     letter-spacing: 0.1em;
     font-family: sans-serif;
   }
-  
 .copyright {
     color: #9C9C9C
 }
-
 .footer {
     background-color: white;
-    width: 100% ;
-    
-    
+    width: 100% ; 
 }
 .social-media-icons {
     width: 30px;
@@ -129,17 +114,15 @@ button:hover {
 .social-media-icons.two {
     width: 26px;
 }
-
-
-
-
+.btn-footer {
+  width: 180px;
+}
 
 /*My UX Skills*/
 
 .mySkills{
   text-align: center;
 }
-
 .flexcontainer {
   display: flex;
   padding: 0;
@@ -168,6 +151,7 @@ button:hover {
 
     }
   }
+
 /*tablet view styles*/
 
   @media only screen and (max-width: 950px) {
@@ -241,24 +225,19 @@ button:hover {
     color: rgb(116, 116, 116);
   }
 
-
-
 /*My work*/
 
 .myWork {
   text-align: center;
   overflow: hidden;
 }
-
 .grid-card-wrapper {
   margin: 0 auto;
   display: grid;
   padding: 30px 28px;
   grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
-  /*grid-gap: 30px;*/
   align-items: stretch;
 }
-
 .grid-card {
   display: flex;
   margin: 10px 0px;
@@ -273,17 +252,9 @@ button:hover {
 .grid-card:hover{
   transform: scale(1.03);
 }
-
 .grid-card.purple-card {
   background-color: #DADAE9;
 }
-
-.grid-card-img{
-  /*height: 240px; */
- /*width: 150px;*/
-}
-
-
 .col-5 {
     width: 40%;
     overflow: auto;
@@ -294,15 +265,12 @@ button:hover {
     flex-direction: column;
     align-items: left;
 }
-
 .card-header-text {
   text-align: left;
 }
-
 .SAHS-text {
   text-align: left;
 }
-
 .SAHS-p{
   text-align: left;
   justify-content: flex-end;
