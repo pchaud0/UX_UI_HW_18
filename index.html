@@ -48,9 +48,10 @@
 
 
  <!--  My UX Skills section coded using CSS flex -->
- <section>
-    <div class="threecontainer"> 
-        <div class="threecards">
+ <section class=mySkills>
+     <h1 class=mySkills>My UX Skills</h1>
+    <div class="flexcontainer"> 
+        <div class="flexchild">
             <div class="threecard-item">
                 <div class="threecard-image">
                     <img src="images/user.png" class="cardimage" >
@@ -61,7 +62,7 @@
                 </div>
             </div> 
         </div>
-        <div class="threecards">
+        <div class="flexchild">
             <div class="threecard-item">
                 <div class="threecard-image">
                     <img src="images/face.png" class="cardimage" >
@@ -72,7 +73,7 @@
                 </div>
             </div> 
         </div>
-        <div class="threecards">
+        <div class="flexchild">
             <div class="threecard-item">
                 <div class="threecard-image">
                     <img src="images/ui.png" class="cardimage" >
@@ -86,6 +87,43 @@
     </div>       
 </section>
 
+<!-- My Work Section Constructed using CSS Grid -->
+<section class="myWork">
+    <h1>My Work</h1>
+    <div class="grid-card-wrapper">
+          <div class="grid-card" >  
+                <div class="col-5">
+                    <img class="grid-card-img" src="images/GeoTrip img.png" alt="Productivity Delivering Experience" title="Delivering Experience Since 2009" />
+                </div>
+                <div class="col-7">
+                    <h2 class="card-header-text">GEOTRIP</h2>
+                    <p class="SAHS-p">
+                        Access all your travel information in one app.
+                    </p>
+                 <div class="btn-footer">
+                      <button> View Case Study</button>
+                    </div>
+                </div>
+          </div>
+          <div class="grid-card purple-card">  
+            <div class="col-7 ">
+                    <h2 class="SAHS-text">SAN ANTONIO HUMANE SOCIETY</h2>
+                    <p class="SAHS-p">An improved pet adoption experience. 
+                    </p>
+                    <div class="btn-footer">
+                      <button> View Case Study</button>
+                    </div>
+                </div>
+                <div class="col-5">
+                    <img class="SAHS-image" src="images/Humane img.png" alt="Productivity Delivering Experience" title="Delivering Experience Since 2009" />
+                </div>
+    
+          </div>
+        </div>   
+
+    <h3>View All Projects</h3>
+
+</section>
     
        <!-- Footer Section -->
         <footer class="footer">
@@ -115,6 +153,8 @@
       
             </div>
           </footer>
+
+
           
 
 
